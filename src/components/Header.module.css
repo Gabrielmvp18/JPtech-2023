@@ -1,0 +1,31 @@
+* {
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+text-decoration: none;
+}
+
+header {
+font-family: 'Roboto Slab', serif;
+background: rgb(186 234 250 / 58%);
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-around;
+padding: 18px;
+}
+.logo {
+height: 70px;
+}
+.item {
+margin: 15px;
+border-radius: 25px;
+padding: 10px;
+background-color: #91d0fa;
+text-decoration: none;
+transition: 0.2s;
+}
+.item:hover{
+background-color: #66666645;
+padding: 13px
+}

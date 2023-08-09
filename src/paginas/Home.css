@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Kalam&family=Poppins:wght@300&family=Press+Start+2P&family=Roboto+Slab&family=Vina+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Heebo:wght@600&family=Roboto+Slab&family=Titillium+Web&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Dosis&family=Heebo:wght@600&family=Roboto+Slab&family=Titillium+Web&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@300&family=Monomaniac+One&family=Oswald:wght@300&family=Playfair&display=swap');
+
+* {
+margin: 0%;
+text-decoration: none;
+}
+body {
+font-size: 100%;
+padding: 0px 0px
+}
+
+main {
+background-color: #f5f5f5;
+padding-left: 5px
+}
+section {
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-around;
+padding: 18px 0px 65px 0px;
+}
+figure {
+width: 198px;
+height: 195px;
+cursor: pointer;
+}
+.texto{
+width: 100px;
+color: rgb(3,0,22);
+border: 2px solid rgb(3,0,22);
+border-radius:10px;
+width:400px;
+text-align:center;
+margin-left:38%;
+margin-top:20px;
+}
+
+.inferior {
+background-color: rgb(186 234 250 / 58%);
+}
+#contato {
+font-size: 40px;
+padding: 0px 0px 20px 0px;
+}
+footer {
+padding: 50px;
+font-size: 18px;
+}
+
+.invisibleButton {
+background: none;
+border: none;
+padding: 0;
+font: inherit;
+cursor: default;
+outline: inherit;
+color: inherit;
+}
+.button-container {
+display: flex;
+justify-content: center;
+gap: 200px;
+margin-top: -90px;
+padding: 180px 170px 130px 120px;
+}
+.button {
+font-size: 16px;
+padding: 80px 40px;
+background-color: #91d0fa;
+border: none;
+transition: background-color 0.4s ease;
+border-radius: 30px;
+cursor:pointer;
+}
+.button:hover {
+background-color: #66666645;
+}
+.frase {
+font-size: 25px;
+}

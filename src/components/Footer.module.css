@@ -1,0 +1,33 @@
+.texto{
+    width: 100px;
+    padding-left:4px !important;
+    color: rgb(3,0,22);
+    border: 2px solid rgb(3,0,22);
+    border-radius:10px;
+    width:400px;
+    text-align:center;
+    margin-left:38%;
+    }
+
+    .inferior {
+    background-color: rgb(186 234 250 / 58%);
+    padding-bottom: 200px;
+    }
+    #contato {
+    font-size: 40px;
+    padding: 60px 0px 20px 0px;
+    }
+    footer {
+    padding: 50px;
+    font-size: 18px;
+    }
+
+    .invisibleButton {
+    background: none;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: default;
+    outline: inherit;
+    color: inherit;
+    }

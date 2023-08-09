@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@300&family=Oswald:wght@300&family=Playfair&display=swap%27');
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+body{
+background: #ffffff;
+overflow: hidden;
+}
+.titulo{
+font-family: 'Geologica', serif;
+color: rgb(255, 255, 255);
+text-shadow: 1px 1px 5px black;
+position: relative;
+right: 10px;
+margin-bottom: 60px;
+font-size: 30px;
+margin-top: -20px;
+}
+.container-login {
+position: absolute;
+width: 500px;
+padding: 60px;
+right: 400px;
+top: 370px;
+background-color: rgba(0, 0, 0, 0.713);
+border-radius: 10px;
+margin-top: -150px;
+}
+#username {
+background-color: white;
+border-radius: 5px;
+width: 282px;
+margin-left: 55px;
+}
+#password {
+background-color: white;
+border-radius: 5px;
+padding-left: 10px;
+margin-left: 55px;
+}
+#login{
+width: 200px;
+height: 50px;
+background-color: #C3c3c3;
+font-family: 'Playfair', serif;
+font-size: 18px;
+color: rgb(0, 0, 0);
+border: 2px solid black;
+border-radius: 10px;
+box-shadow: -2px 2px 0 rgb(3,0,22);
+letter-spacing: 1px;
+display: block;
+transition: 0.2s;
+margin:10px 0px 0px 95px;
+}
+#login:hover{
+box-shadow: -4px 4px 0 rgb(3,0,22);
+filter: brightness(.8)
+}
+input{
+width: 280px;
+height: 35px;
+font-family: 'Playfair', serif;
+font-size: 16px;
+color: black;
+margin: 20px auto;
+display: block;
+margin-right: 30px;
+}
+::-webkit-input-placeholder {
+color: rgb(255, 255, 255);
+}
+#message_login{
+font-family: 'Playfair', serif;
+color: rgb(255, 255, 255);
+position: absolute;
+text-shadow: 1px 1px 5px black;
+}
+.img-fundo {
+position: absolute;
+width: 130%;
+height: 120%;
+left: -500px;
+top: -30px;
+margin-top: 0;
+z-index: -1;
+opacity: 1;
+}
+#forgot-password{
+width: 200px;
+height: 50px;
+background-color: #C3c3c3;
+font-family: 'Playfair', serif;
+font-size: 17px;
+color: rgb(0, 0, 0);
+border: 2px solid black;
+border-radius: 10px;
+box-shadow: -2px 2px 0 rgb(3,0,22);
+margin: 20px 95px;
+display: block;
+}
+#forgot-password:hover{
+box-shadow: -4px 4px 0 rgb(3,0,22);
+filter: brightness(.8)
+}
+input::placeholder {
+text-align: center;
+color: black;
+}
+.input-container {
+position: relative;
+display: flex;
+align-items: center;
+}
